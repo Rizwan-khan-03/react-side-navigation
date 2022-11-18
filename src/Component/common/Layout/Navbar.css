@@ -1,0 +1,136 @@
+.topbar, .topbar1 {
+  width: 100%;
+  height: 3.33em;
+  background: #333956;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.topbar .sidebar {
+  width: 65px;
+}
+
+
+  .topbarWrapper {
+    height: 100%;
+    padding: 0 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+   
+  .logo {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #ADB0C3;
+    cursor: pointer;
+    width: 12em;
+}
+
+.topSearch {
+  position: relative;
+}
+
+.topSearch i {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 38px;
+  font-size: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #454B65;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+
+.topSearch input:focus-visible {
+  outline: #283593 auto 0px !important;
+  background-color: #fff;
+}
+
+.topSearch input:focus-within {
+  background-color: #fff;
+}
+
+.topSearch input:focus {
+  border: 1px solid #283593;
+  border-bottom: solid 1px #283593;
+  background-color: #fff;
+}
+
+.topSearch input:focus  .topSearch i, .topSearch input:focus-visible  .topSearch i {
+  color: #283593;
+}
+  
+  .topRight{
+      display: flex;
+      align-items: center;
+  }
+  
+  .topbarIconContainer {
+    position: relative;
+    width: 10rem;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+    margin-top: 0rem;
+  }
+  
+  .topIconBadge{
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      top: -5px;
+      right: 0px;
+      background-color: red;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+  }
+  
+  .topAvatar{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+
+/* .inputSearch label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+} */
+
+.inputSearch {
+  background-color: #454B65;
+  min-width: 31.25vw;
+  margin: 0;
+  border: 0;
+  height: 38px;
+  border-radius: 3px;
+  padding-left: 2.5em;
+}
+
+.topLeft {
+  display: flex;
+  align-items: center;
+}
+
+.topLeft svg{
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+
+.topbar .sidebar .sMenu_adds p {
+  display: none;
+}

@@ -1,0 +1,38 @@
+.form_class.nav-item.dropdown.form_class {
+    padding: 0px 50px;
+    margin-top: 15px;
+}
+
+.form_margin{
+    /* margin-top: 15px; */
+}
+
+.flex_class{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.color_class{
+    /* background-color: #333956; */
+    background-color: #454B65;
+}
+
+.color_input_class{
+     background-color: #454B65;
+}
+
+.color_class-1{
+    color: white;
+}
+
+nav.color_class.navbar.navbar-expand-lg.navbar-dark.abc {
+    height: 60px;
+}
+
+.me-2 {
+    position: relative;
+    left: -180px;
+    width: 460px;
+    /* border-radius: 0px; */
+}
