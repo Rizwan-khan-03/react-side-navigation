@@ -19,14 +19,9 @@ export default function Navs() {
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
   };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
 
-  const userLogout = () => {
-    // clearStorage();
-    window.location.href = window.location.origin;
-  };
+
+ 
 
 
   return (
