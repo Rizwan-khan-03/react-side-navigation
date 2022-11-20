@@ -19,14 +19,14 @@ const SubMenu = (props) => {
           <FontAwesomeIcon icon={icon} className="mr-2" />
           {title}
         </NavLink>
-      </NavItem>
+      </NavItem>  
       <Collapse
         isOpen={!collapsed}
         navbar
         className={classNames("items-menu", { "mb-1": !collapsed })}
       >
         {items.map((item, index) => (
-          <NavItem key={index} className="pl-4">
+          <NavItem key={`sub${index}`} className="pl-4">
             <NavLink tag={Link} to={item.target}>
               {item.title}
             </NavLink>

@@ -11,10 +11,10 @@ body {
   background: #fafafa;
 }
 
-a,
+
 a:hover,
 a:focus {
-  color: inherit;
+  color: #0dcaf0 !important;
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -25,8 +25,8 @@ a:focus {
 .sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #7386d5;
-  color: #fff;
+  background: #0dcaf0;
+  color: #fff !important;
   margin-left: -250px;
   transition: all 0.5s;
 }
@@ -37,7 +37,7 @@ a:focus {
 }
 
 .sidebar-header {
-  background: #6d7fcc;
+  background: #0dcaf0;
 }
 
 .sidebar-header h3 {
@@ -51,17 +51,17 @@ a:focus {
 }
 
 .menu-open {
-  background: #6d7fcc;
+  background: #0dcaf0;
 }
 
 .nav-item:hover {
-  color: #7386d5;
+  color: #0dcaf0 !important;
   background: #fff;
 }
 
 .items-menu {
   color: #fff;
-  background: #6d7fcc;
+  background: #0dcaf0;
 }
 
 li a.dropdown-toggle::after {
@@ -89,12 +89,12 @@ li a.dropdown-toggle::after {
 }
 
 .side-menu::-webkit-scrollbar-thumb {
-  background: #5466b3;
+  background: #0dcaf0;
   border-radius: 3px;
 }
 
 .side-menu::-webkit-scrollbar-thumb:hover {
-  background: #3a4c99;
+  background: #0dcaf0 !important;
 }
 a.nav-link {
   color: #fff;
@@ -135,3 +135,12 @@ a.nav-link {
     left: 68%;
   }
 }
+/* overwrite */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+  --bs-gutter-x: 0
+}
+.content{
+  padding:0
+  
+}
+/* overwrite */
